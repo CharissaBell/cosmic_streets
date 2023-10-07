@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- instructions_popup.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/game_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="10sp"
+        android:text="Welcome to Cosmic Streets!"
+        android:textStyle="bold"
+        android:textColor="#fa3581"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/instructionsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game_instructions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="5sp"
+        android:text="Swipe left/right to move,\ntap to shoot.\nScore points by hitting the Heli, \nAvoid police shots.\nLet's Gooo!"
+        android:textColor="#fa3581"
+        android:textSize="20sp"
+        android:textStyle="bold"    />
+
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_bkg"
+        android:layout_below="@id/instructionsText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="26sp"
+        android:textColor="#fa3581"
+        android:text="Close" />
+
+</RelativeLayout>
+

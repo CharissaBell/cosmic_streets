@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300sp"
+        android:paddingTop="5sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="15sp"
+        android:text="user Details"
+        android:textColor="#fa3581"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/yellow_bkg"
+        android:padding="5sp"
+        android:text="@string/logout"
+        android:textColor="#fa3581" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/play_big"
+        android:onClick="startGame" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/points"
+        android:shadowColor="#000000"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="2"
+        android:text="@string/start_game"
+        android:textColor="#fa3581"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_bg" />
+
+
+    <TextView
+        android:id="@+id/txtHowToPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_bkg"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="14dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="5sp"
+        android:text="@string/how_to_play"
+        android:textStyle="bold"
+        android:textColor="#fa3581"
+        android:textSize="15sp" />
+
+    </LinearLayout>
